@@ -5,6 +5,10 @@ import random
 import json
 import os
 from dotenv import load_dotenv  # type: ignore
+from flask import Flask # type: ignore
+
+# Flaskアプリケーションのインスタンスを作成
+app = Flask(__name__)
 
 load_dotenv()
 TOKEN = os.getenv("DISCORD_BOT_TOKEN")
@@ -216,5 +220,16 @@ async def on_ready():
 @bot.tree.command(name="weapon", description="スプラトゥーン3の武器抽選メニューを表示します")
 async def weapon(interaction: discord.Interaction):
     await interaction.response.send_message("🔰 **スプラトゥーン3 武器抽選メニュー**", view=MainMenu(), ephemeral=True)
+
+# Flaskサーバーを指定したポートで起動
+if __name__ == "__main__":
+    from threading import Thread
+
+    def run_flask():
+        app.run(host='0.0.0.0', port=5000)
+
+    # Flaskサーバーを別スレッドで起動
+    flask_thread = Thread(target=run_flask)
+    flask_thread.start()
 
 bot.run(TOKEN)
