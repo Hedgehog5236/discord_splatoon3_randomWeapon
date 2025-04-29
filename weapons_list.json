@@ -1,0 +1,1034 @@
+[
+  {
+    "type": "シューター",
+    "name": "ボールドマーカー",
+    "subName": "カーリングボム",
+    "specialName": "ウルトラハンコ",
+    "specialPoint": 180,
+    "image": "bold_marker.png"
+  },
+  {
+    "type": "シューター",
+    "name": "ボールドマーカーネオ",
+    "subName": "ジャンプビーコン",
+    "specialName": "メガホンレーザー5.1ch",
+    "specialPoint": 180,
+    "image": "bold_marker_neo.png"
+  },
+  {
+    "type": "シューター",
+    "name": "わかばシューター",
+    "subName": "スプラッシュボム",
+    "specialName": "グレートバリア",
+    "specialPoint": 180,
+    "image": "wakaba_shooter.png"
+  },
+  {
+    "type": "シューター",
+    "name": "もみじシューター",
+    "subName": "トーピード",
+    "specialName": "ホップソナー",
+    "specialPoint": 190,
+    "image": "momiji_shooter.png"
+  },
+  {
+    "type": "シューター",
+    "name": "プロモデラーMG",
+    "subName": "タンサンボム",
+    "specialName": "サメライド",
+    "specialPoint": 180,
+    "image": "promodeler_mg.png"
+  },
+  {
+    "type": "シューター",
+    "name": "プロモデラーRG",
+    "subName": "スプリンクラー",
+    "specialName": "ナイスダマ",
+    "specialPoint": 200,
+    "image": "promodeler_rg.png"
+  },
+  {
+    "type": "シューター",
+    "name": "シャープマーカー",
+    "subName": "クイックボム",
+    "specialName": "カニタンク",
+    "specialPoint": 200,
+    "image": "sharp_marker.png"
+  },
+  {
+    "type": "シューター",
+    "name": "シャープマーカーネオ",
+    "subName": "キューバンボム",
+    "specialName": "トリプルトルネード",
+    "specialPoint": 200,
+    "image": "sharp_marker_neo.png"
+  },
+  {
+    "type": "シューター",
+    "name": "スプラシューター",
+    "subName": "キューバンボム",
+    "specialName": "ウルトラショット",
+    "specialPoint": 190,
+    "image": "splash_shooter.png"
+  },
+  {
+    "type": "シューター",
+    "name": "スプラシューターコラボ",
+    "subName": "スプラッシュボム",
+    "specialName": "トリプルトルネード",
+    "specialPoint": 190,
+    "image": "splash_shooter_collabo.png"
+  },
+  {
+    "type": "シューター",
+    "name": "N-ZAP85",
+    "subName": "キューバンボム",
+    "specialName": "エナジースタンド",
+    "specialPoint": 180,
+    "image": "nzap85.png"
+  },
+  {
+    "type": "シューター",
+    "name": "N-ZAP89",
+    "subName": "ロボットボム",
+    "specialName": "デコイチラシ",
+    "specialPoint": 180,
+    "image": "nzap89.png"
+  },
+  {
+    "type": "シューター",
+    "name": ".52ガロン",
+    "subName": "スプラッシュシールド",
+    "specialName": "メガホンレーザー5.1ch",
+    "specialPoint": 190,
+    "image": "52galon.png"
+  },
+  {
+    "type": "シューター",
+    "name": "プライムシューター",
+    "subName": "ラインマーカー",
+    "specialName": "カニタンク",
+    "specialPoint": 180,
+    "image": "prime_shooter.png"
+  },
+  {
+    "type": "シューター",
+    "name": "プライムシューターコラボ",
+    "subName": "キューバンボム",
+    "specialName": "ナイスダマ",
+    "specialPoint": 210,
+    "image": "prime_shooter_collabo.png"
+  },
+  {
+    "type": "シューター",
+    "name": ".96ガロン",
+    "subName": "スプリンクラー",
+    "specialName": "キューインキ",
+    "specialPoint": 200,
+    "image": "96galon.png"
+  },
+  {
+    "type": "シューター",
+    "name": ".96ガロンデコ",
+    "subName": "スプラッシュシールド",
+    "specialName": "テイオウイカ",
+    "specialPoint": 210,
+    "image": "96gal_deco.png"
+  },
+  {
+    "type": "シューター",
+    "name": "ジェットスイーパー",
+    "subName": "ラインマーカー",
+    "specialName": "キューインキ",
+    "specialPoint": 190,
+    "image": "jet_sweeper.png"
+  },
+  {
+    "type": "シューター",
+    "name": "ジェットスイーパーカスタム",
+    "subName": "ポイズンミスト",
+    "specialName": "アメフラシ",
+    "specialPoint": 180,
+    "image": "jet_sweeper_custom.png"
+  },
+  {
+    "type": "シューター",
+    "name": "スペースシューター",
+    "subName": "ポイントセンサー",
+    "specialName": "メガホンレーザー5.1ch",
+    "specialPoint": 190,
+    "image": "space_shooter.png"
+  },
+  {
+    "type": "シューター",
+    "name": "L3リールガン",
+    "subName": "カーリングボム",
+    "specialName": "カニタンク",
+    "specialPoint": 200,
+    "image": "l3_reel_gun.png"
+  },
+  {
+    "type": "シューター",
+    "name": "L3リールガンD",
+    "subName": "クイックボム",
+    "specialName": "ウルトラハンコ",
+    "specialPoint": 200,
+    "image": "l3_reel_gun_d.png"
+  },
+  {
+    "type": "シューター",
+    "name": "H3リールガン",
+    "subName": "キューバンボム",
+    "specialName": "エナジースタンド",
+    "specialPoint": 190,
+    "image": "h3_reel_gun.png"
+  },
+  {
+    "type": "シューター",
+    "name": "ボトルガイザー",
+    "subName": "スプラッシュシールド",
+    "specialName": "ウルトラショット",
+    "specialPoint": 200,
+    "image": "bottle_geyser.png"
+  },
+  {
+    "type": "ローラー",
+    "name": "カーボンローラー",
+    "subName": "ロボットボム",
+    "specialName": "ショクワンダー",
+    "specialPoint": 180,
+    "image": "carbon_roller.png"
+  },
+  {
+    "type": "ローラー",
+    "name": "カーボンローラーデコ",
+    "subName": "クイックボム",
+    "specialName": "ウルトラショット",
+    "specialPoint": 190,
+    "image": "carbon_roller_deco.png"
+  },
+  {
+    "type": "ローラー",
+    "name": "スプラローラー",
+    "subName": "カーリングボム",
+    "specialName": "グレートバリア",
+    "specialPoint": 180,
+    "image": "splash_roller.png"
+  },
+  {
+    "type": "ローラー",
+    "name": "スプラローラーコラボ",
+    "subName": "ジャンプビーコン",
+    "specialName": "テイオウイカ",
+    "specialPoint": 180,
+    "image": "splash_roller_collabo.png"
+  },
+  {
+    "type": "ローラー",
+    "name": "ダイナモローラー",
+    "subName": "スプリンクラー",
+    "specialName": "エナジースタンド",
+    "specialPoint": 190,
+    "image": "dynamo_roller.png"
+  },
+  {
+    "type": "ローラー",
+    "name": "ヴァリアブルローラー",
+    "subName": "トラップ",
+    "specialName": "マルチミサイル",
+    "specialPoint": 210,
+    "image": "variable_roller.png"
+  },
+  {
+    "type": "ローラー",
+    "name": "ワイドローラー",
+    "subName": "スプラッシュシールド",
+    "specialName": "キューインキ",
+    "specialPoint": 200,
+    "image": "wide_roller.png"
+  },
+  {
+    "type": "チャージャー",
+    "name": "スクイックリンα",
+    "subName": "ポイントセンサー",
+    "specialName": "グレートバリア",
+    "specialPoint": 190,
+    "image": "squicklin_alpha.png"
+  },
+  {
+    "type": "チャージャー",
+    "name": "スプラチャージャー",
+    "subName": "スプラッシュボム",
+    "specialName": "キューインキ",
+    "specialPoint": 200,
+    "image": "splash_charger.png"
+  },
+  {
+    "type": "チャージャー",
+    "name": "スプラスコープ",
+    "subName": "スプラッシュボム",
+    "specialName": "キューインキ",
+    "specialPoint": 200,
+    "image": "splash_scope.png"
+  },
+  {
+    "type": "チャージャー",
+    "name": "スプラチャージャーコラボ",
+    "subName": "スプラッシュシールド",
+    "specialName": "トリプルトルネード",
+    "specialPoint": 210,
+    "image": "splash_charger_collabo.png"
+  },
+  {
+    "type": "チャージャー",
+    "name": "スプラスコープコラボ",
+    "subName": "スプラッシュシールド",
+    "specialName": "トリプルトルネード",
+    "specialPoint": 210,
+    "image": "splash_scope_collabo.png"
+  },
+  {
+    "type": "チャージャー",
+    "name": "リッター4K",
+    "subName": "トラップ",
+    "specialName": "ホップソナー",
+    "specialPoint": 210,
+    "image": "liter_4k.png"
+  },
+  {
+    "type": "チャージャー",
+    "name": "4Kスコープ",
+    "subName": "トラップ",
+    "specialName": "ホップソナー",
+    "specialPoint": 210,
+    "image": "liter_4k_scope.png"
+  },
+  {
+    "type": "チャージャー",
+    "name": "14式竹筒銃・甲",
+    "subName": "ロボットボム",
+    "specialName": "メガホンレーザー5.1ch",
+    "specialPoint": 200,
+    "image": "14_bamboo_gun_kou.png"
+  },
+  {
+    "type": "チャージャー",
+    "name": "ソイチューバー",
+    "subName": "トーピード",
+    "specialName": "マルチミサイル",
+    "specialPoint": 200,
+    "image": "soytuber.png"
+  },
+  {
+    "type": "チャージャー",
+    "name": "R-PEN/5H",
+    "subName": "スプリンクラー",
+    "specialName": "エナジースタンド",
+    "specialPoint": 200,
+    "image": "r_pen_5h.png"
+  },
+  {
+    "type": "ブラスター",
+    "name": "ノヴァブラスター",
+    "subName": "スプラッシュボム",
+    "specialName": "ショクワンダー",
+    "specialPoint": 180,
+    "image": "nova_blaster.png"
+  },
+  {
+    "type": "ブラスター",
+    "name": "ノヴァブラスターネオ",
+    "subName": "タンサンボム",
+    "specialName": "ウルトラハンコ",
+    "specialPoint": 180,
+    "image": "nova_blaster_neo.png"
+  },
+  {
+    "type": "ブラスター",
+    "name": "ホットブラスター",
+    "subName": "ロボットボム",
+    "specialName": "グレートバリア",
+    "specialPoint": 180,
+    "image": "hot_blaster.png"
+  },
+  {
+    "type": "ブラスター",
+    "name": "ロングブラスター",
+    "subName": "キューバンボム",
+    "specialName": "ホップソナー",
+    "specialPoint": 200,
+    "image": "long_blaster.png"
+  },
+  {
+    "type": "ブラスター",
+    "name": "ラピッドブラスター",
+    "subName": "トラップ",
+    "specialName": "トリプルトルネード",
+    "specialPoint": 200,
+    "image": "rapid_blaster.png"
+  },
+  {
+    "type": "ブラスター",
+    "name": "ラピッドブラスターデコ",
+    "subName": "トーピード",
+    "specialName": "ジェットパック",
+    "specialPoint": 200,
+    "image": "rapid_blaster_deco.png"
+  },
+  {
+    "type": "ブラスター",
+    "name": "Rブラスターエリート",
+    "subName": "ポイズンミスト",
+    "specialName": "キューインキ",
+    "specialPoint": 180,
+    "image": "r_blaster_elite.png"
+  },
+  {
+    "type": "ブラスター",
+    "name": "クラッシュブラスター",
+    "subName": "スプラッシュボム",
+    "specialName": "ウルトラショット",
+    "specialPoint": 180,
+    "image": "crash_blaster.png"
+  },
+  {
+    "type": "ブラスター",
+    "name": "クラッシュブラスターネオ",
+    "subName": "カーリングボム",
+    "specialName": "デコイチラシ",
+    "specialPoint": 180,
+    "image": "crash_blaster_neo.png"
+  },
+  {
+    "type": "スロッシャー",
+    "name": "ヒッセン",
+    "subName": "ポイズンミスト",
+    "specialName": "ジェットパック",
+    "specialPoint": 180,
+    "image": "hissen.png"
+  },
+  {
+    "type": "スロッシャー",
+    "name": "ヒッセン・ヒュー",
+    "subName": "タンサンボム",
+    "specialName": "エナジースタンド",
+    "specialPoint": 180,
+    "image": "hissen_hugh.png"
+  },
+  {
+    "type": "スロッシャー",
+    "name": "バケットスロッシャー",
+    "subName": "スプラッシュボム",
+    "specialName": "トリプルトルネード",
+    "specialPoint": 200,
+    "image": "bucket_slosher.png"
+  },
+  {
+    "type": "スロッシャー",
+    "name": "バケットスロッシャーデコ",
+    "subName": "ラインマーカー",
+    "specialName": "ショクワンダー",
+    "specialPoint": 200,
+    "image": "bucket_slosher_deco.png"
+  },
+  {
+    "type": "スロッシャー",
+    "name": "スクリュースロッシャー",
+    "subName": "タンサンボム",
+    "specialName": "ナイスダマ",
+    "specialPoint": 220,
+    "image": "screw_slosher.png"
+  },
+  {
+    "type": "スロッシャー",
+    "name": "オーバーフロッシャー",
+    "subName": "スプリンクラー",
+    "specialName": "アメフラシ",
+    "specialPoint": 190,
+    "image": "over_flosher.png"
+  },
+  {
+    "type": "スロッシャー",
+    "name": "エクスプロッシャー",
+    "subName": "ポイントセンサー",
+    "specialName": "アメフラシ",
+    "specialPoint": 200,
+    "image": "explosher.png"
+  },
+  {
+    "type": "スピナー",
+    "name": "スプラスピナー",
+    "subName": "クイックボム",
+    "specialName": "ウルトラハンコ",
+    "specialPoint": 180,
+    "image": "splash_spinner.png"
+  },
+  {
+    "type": "スピナー",
+    "name": "スプラスピナーコラボ",
+    "subName": "ポイズンミスト",
+    "specialName": "グレートバリア",
+    "specialPoint": 200,
+    "image": "splash_spinner_collabo.png"
+  },
+  {
+    "type": "スピナー",
+    "name": "バレルスピナー",
+    "subName": "スプリンクラー",
+    "specialName": "ホップソナー",
+    "specialPoint": 200,
+    "image": "barrel_spinner.png"
+  },
+  {
+    "type": "スピナー",
+    "name": "ハイドラント",
+    "subName": "ロボットボム",
+    "specialName": "ナイスダマ",
+    "specialPoint": 190,
+    "image": "hydrant.png"
+  },
+  {
+    "type": "スピナー",
+    "name": "クーゲルシュライバー",
+    "subName": "タンサンボム",
+    "specialName": "ジェットパック",
+    "specialPoint": 190,
+    "image": "kugel_schreiber.png"
+  },
+  {
+    "type": "スピナー",
+    "name": "ノーチラス47",
+    "subName": "ポイントセンサー",
+    "specialName": "アメフラシ",
+    "specialPoint": 190,
+    "image": "nautilus_47.png"
+  },
+  {
+    "type": "フデ",
+    "name": "パブロ",
+    "subName": "スプラッシュボム",
+    "specialName": "メガホンレーザー5.1ch",
+    "specialPoint": 180,
+    "image": "pablo.png"
+  },
+  {
+    "type": "フデ",
+    "name": "パブロ・ヒュー",
+    "subName": "トラップ",
+    "specialName": "ウルトラハンコ",
+    "specialPoint": 180,
+    "image": "pablo_hugh.png"
+  },
+  {
+    "type": "フデ",
+    "name": "ホクサイ",
+    "subName": "キューバンボム",
+    "specialName": "ショクワンダー",
+    "specialPoint": 180,
+    "image": "hokusai.png"
+  },
+  {
+    "type": "マニューバー",
+    "name": "スパッタリー",
+    "subName": "ジャンプビーコン",
+    "specialName": "エナジースタンド",
+    "specialPoint": 180,
+    "image": "splatterly.png"
+  },
+  {
+    "type": "マニューバー",
+    "name": "スパッタリー・ヒュー",
+    "subName": "トーピード",
+    "specialName": "サメライド",
+    "specialPoint": 190,
+    "image": "splatterly_hugh.png"
+  },
+  {
+    "type": "マニューバー",
+    "name": "スプラマニューバー",
+    "subName": "キューバンボム",
+    "specialName": "カニタンク",
+    "specialPoint": 190,
+    "image": "splash_maneuver.png"
+  },
+  {
+    "type": "マニューバー",
+    "name": "デュアルスイーパー",
+    "subName": "スプラッシュボム",
+    "specialName": "ホップソナー",
+    "specialPoint": 200,
+    "image": "dual_sweeper.png"
+  },
+  {
+    "type": "マニューバー",
+    "name": "ケルビン525",
+    "subName": "スプラッシュシールド",
+    "specialName": "ナイスダマ",
+    "specialPoint": 180,
+    "image": "kelvin_525.png"
+  },
+  {
+    "type": "マニューバー",
+    "name": "クアッドホッパーブラック",
+    "subName": "ロボットボム",
+    "specialName": "サメライド",
+    "specialPoint": 200,
+    "image": "quad_hopper_black.png"
+  },
+  {
+    "type": "シェルター",
+    "name": "パラシェルター",
+    "subName": "スプリンクラー",
+    "specialName": "トリプルトルネード",
+    "specialPoint": 200,
+    "image": "para_shelter.png"
+  },
+  {
+    "type": "シェルター",
+    "name": "キャンピングシェルター",
+    "subName": "ジャンプビーコン",
+    "specialName": "キューインキ",
+    "specialPoint": 190,
+    "image": "camping_shelter.png"
+  },
+  {
+    "type": "シェルター",
+    "name": "スパイガジェット",
+    "subName": "トラップ",
+    "specialName": "サメライド",
+    "specialPoint": 180,
+    "image": "spy_gadget.png"
+  },
+  {
+    "type": "ストリンガー",
+    "name": "トライストリンガー",
+    "subName": "ポイズンミスト",
+    "specialName": "メガホンレーザー5.1ch",
+    "specialPoint": 190,
+    "image": "tri_stringer.png"
+  },
+  {
+    "type": "ストリンガー",
+    "name": "LACT-450",
+    "subName": "カーリングボム",
+    "specialName": "マルチミサイル",
+    "specialPoint": 210,
+    "image": "lact_450.png"
+  },
+  {
+    "type": "ワイパー",
+    "name": "ドライブワイパー",
+    "subName": "トーピード",
+    "specialName": "ウルトラハンコ",
+    "specialPoint": 190,
+    "image": "drive_wiper.png"
+  },
+  {
+    "type": "ワイパー",
+    "name": "ジムワイパー",
+    "subName": "クイックボム",
+    "specialName": "ショクワンダー",
+    "specialPoint": 190,
+    "image": "gym_wiper.png"
+  },
+  {
+    "type": "スピナー",
+    "name": "バレルスピナーデコ",
+    "subName": "ポイントセンサー",
+    "specialName": "テイオウイカ",
+    "specialPoint": 200,
+    "image": "barrel_spinner_deco.png"
+  },
+  {
+    "type": "シェルター",
+    "name": "パラシェルターソレーラ",
+    "subName": "ロボットボム",
+    "specialName": "ジェットパック",
+    "specialPoint": 190,
+    "image": "para_shelter_sorella.png"
+  },
+  {
+    "type": "フデ",
+    "name": "ホクサイ・ヒュー",
+    "subName": "ジャンプビーコン",
+    "specialName": "アメフラシ",
+    "specialPoint": 180,
+    "image": "hokusai_hugh.png"
+  },
+  {
+    "type": "マニューバー",
+    "name": "デュアルスイーパーカスタム",
+    "subName": "ジャンプビーコン",
+    "specialName": "デコイチラシ",
+    "specialPoint": 210,
+    "image": "dual_sweeper_custom.png"
+  },
+  {
+    "type": "ブラスター",
+    "name": "ロングブラスターカスタム",
+    "subName": "スプラッシュボム",
+    "specialName": "テイオウイカ",
+    "specialPoint": 210,
+    "image": "long_blaster_custom.png"
+  },
+  {
+    "type": "チャージャー",
+    "name": "14式竹筒銃・乙",
+    "subName": "タンサンボム",
+    "specialName": "デコイチラシ",
+    "specialPoint": 200,
+    "image": "14_bamboo_gun_otsu.png"
+  },
+  {
+    "type": "スロッシャー",
+    "name": "スクリュースロッシャーネオ",
+    "subName": "ポイントセンサー",
+    "specialName": "ウルトラショット",
+    "specialPoint": 190,
+    "image": "screw_slosher_neo.png"
+  },
+  {
+    "type": "スロッシャー",
+    "name": "オーバーフロッシャーデコ",
+    "subName": "ラインマーカー",
+    "specialName": "テイオウイカ",
+    "specialPoint": 190,
+    "image": "over_flosher_deco.png"
+  },
+  {
+    "type": "シューター",
+    "name": "クアッドホッパーホワイト",
+    "subName": "スプリンクラー",
+    "specialName": "ショクワンダー",
+    "specialPoint": 190,
+    "image": "quad_hopper_white.png"
+  },
+  {
+    "type": "シューター",
+    "name": ".52ガロンデコ",
+    "subName": "カーリングボム",
+    "specialName": "スミナガシート",
+    "specialPoint": 190,
+    "image": "52galon_deco.png"
+  },
+  {
+    "type": "スロッシャー",
+    "name": "エクスプロッシャーカスタム",
+    "subName": "スプラッシュシールド",
+    "specialName": "ウルトラチャクチ",
+    "specialPoint": 200,
+    "image": "explosher_custom.png"
+  },
+  {
+    "type": "ブラスター",
+    "name": "Rブラスターエリートデコ",
+    "subName": "ラインマーカー",
+    "specialName": "メガホンレーザー5.1ch",
+    "specialPoint": 190,
+    "image": "r_blaster_elite_deco.png"
+  },
+  {
+    "type": "シューター",
+    "name": "ケルビン525デコ",
+    "subName": "ポイントセンサー",
+    "specialName": "ウルトラショット",
+    "specialPoint": 190,
+    "image": "kelvin_525_deco.png"
+  },
+  {
+    "type": "ローラー",
+    "name": "ダイナモローラーテスラ",
+    "subName": "スプラッシュボム",
+    "specialName": "デコイチラシ",
+    "specialPoint": 180,
+    "image": "dynamo_roller_tesla.png"
+  },
+  {
+    "type": "ブラスター",
+    "name": "ホットブラスターカスタム",
+    "subName": "ポイントセンサー",
+    "specialName": "ウルトラチャクチ",
+    "specialPoint": 180,
+    "image": "hot_blaster_custom.png"
+  },
+  {
+    "type": "チャージャー",
+    "name": "リッター4Kカスタム",
+    "subName": "ジャンプビーコン",
+    "specialName": "テイオウイカ",
+    "specialPoint": 210,
+    "image": "liter_4k_custom.png"
+  },
+  {
+    "type": "ローラー",
+    "name": "ヴァリアブルローラーフォイル",
+    "subName": "キューバンボム",
+    "specialName": "スミナガシート",
+    "specialPoint": 200,
+    "image": "variable_roller_foil.png"
+  },
+  {
+    "type": "スピナー",
+    "name": "ノーチラス79",
+    "subName": "キューバンボム",
+    "specialName": "ウルトラチャクチ",
+    "specialPoint": 210,
+    "image": "nautilus_79.png"
+  },
+  {
+    "type": "チャージャー",
+    "name": "ソイチューバーカスタム",
+    "subName": "タンサンボム",
+    "specialName": "ウルトラハンコ",
+    "specialPoint": 200,
+    "image": "soytuber_custom.png"
+  },
+  {
+    "type": "シェルター",
+    "name": "キャンピングシェルターソレーラ",
+    "subName": "トラップ",
+    "specialName": "ウルトラショット",
+    "specialPoint": 200,
+    "image": "camping_shelter_sorella.png"
+  },
+  {
+    "type": "スピナー",
+    "name": "クーゲルシュライバー・ヒュー",
+    "subName": "トラップ",
+    "specialName": "キューインキ",
+    "specialPoint": 200,
+    "image": "kugel_schreiber_hugh.png"
+  },
+  {
+    "type": "スピナー",
+    "name": "ハイドラントカスタム",
+    "subName": "トラップ",
+    "specialName": "スミナガシート",
+    "specialPoint": 200,
+    "image": "hydrant_custom.png"
+  },
+  {
+    "type": "シューター",
+    "name": "H3リールガンD",
+    "subName": "スプラッシュシールド",
+    "specialName": "グレートバリア",
+    "specialPoint": 200,
+    "image": "h3_reel_gun_d.png"
+  },
+  {
+    "type": "チャージャー",
+    "name": "4Kスコープカスタム",
+    "subName": "ジャンプビーコン",
+    "specialName": "テイオウイカ",
+    "specialPoint": 210,
+    "image": "liter_4k_scope_custom.png"
+  },
+  {
+    "type": "フデ",
+    "name": "フィンセント",
+    "subName": "カーリングボム",
+    "specialName": "ホップソナー",
+    "specialPoint": 190,
+    "image": "vincent.png"
+  },
+  {
+    "type": "ブラスター",
+    "name": "S-BLAST92",
+    "subName": "スプリンクラー",
+    "specialName": "サメライド",
+    "specialPoint": 180,
+    "image": "s-blast92.png"
+  },
+  {
+    "type": "ワイパー",
+    "name": "ドライブワイパーデコ",
+    "subName": "ジャンプビーコン",
+    "specialName": "マルチミサイル",
+    "specialPoint": 190,
+    "image": "drive_wiper_deco.png"
+  },
+  {
+    "type": "ローラー",
+    "name": "ワイドローラーコラボ",
+    "subName": "ラインマーカー",
+    "specialName": "アメフラシ",
+    "specialPoint": 190,
+    "image": "wide_roller_collabo.png"
+  },
+  {
+    "type": "スロッシャー",
+    "name": "モップリン",
+    "subName": "キューバンボム",
+    "specialName": "サメライド",
+    "specialPoint": 190,
+    "image": "moplin.png"
+  },
+  {
+    "type": "スピナー",
+    "name": "イグザミナー",
+    "subName": "カーリングボム",
+    "specialName": "エナジースタンド",
+    "specialPoint": 200,
+    "image": "examiner.png"
+  },
+  {
+    "type": "ストリンガー",
+    "name": "トライストリンガーコラボ",
+    "subName": "スプリンクラー",
+    "specialName": "デコイチラシ",
+    "specialPoint": 190,
+    "image": "tri_stringer_collabo.png"
+  },
+  {
+    "type": "チャージャー",
+    "name": "R-PEN/5B",
+    "subName": "スプラッシュシールド",
+    "specialName": "アメフラシ",
+    "specialPoint": 210,
+    "image": "r_pen_5b.png"
+  },
+  {
+    "type": "シューター",
+    "name": "ボトルガイザーフォイル",
+    "subName": "ロボットボム",
+    "specialName": "スミナガシート",
+    "specialPoint": 190,
+    "image": "bottle_geyser_foil.png"
+  },
+  {
+    "type": "シェルター",
+    "name": "スパイガジェットソレーラ",
+    "subName": "トーピード",
+    "specialName": "スミナガシート",
+    "specialPoint": 180,
+    "image": "spy_gadget_sorella.png"
+  },
+  {
+    "type": "フデ",
+    "name": "フィンセント・ヒュー",
+    "subName": "ポイントセンサー",
+    "specialName": "マルチミサイル",
+    "specialPoint": 190,
+    "image": "vincent_hugh.png"
+  },
+  {
+    "type": "ストリンガー",
+    "name": "LACT-450デコ",
+    "subName": "スプラッシュシールド",
+    "specialName": "サメライド",
+    "specialPoint": 200,
+    "image": "lact_450_deco.png"
+  },
+  {
+    "type": "ブラスター",
+    "name": "S-BLAST91",
+    "subName": "クイックボム",
+    "specialName": "ナイスダマ",
+    "specialPoint": 200,
+    "image": "s-blast91.png"
+  },
+  {
+    "type": "ワイパー",
+    "name": "ジムワイパー・ヒュー",
+    "subName": "ポイズンミスト",
+    "specialName": "カニタンク",
+    "specialPoint": 210,
+    "image": "gym_wiper_hugh.png"
+  },
+  {
+    "type": "マニューバー",
+    "name": "スプラマニューバーコラボ",
+    "subName": "カーリングボム",
+    "specialName": "ウルトラチャクチ",
+    "specialPoint": 190,
+    "image": "splash_maneuver_collabo.png"
+  },
+  {
+    "type": "シェルター",
+    "name": "24式張替傘・甲",
+    "subName": "ラインマーカー",
+    "specialName": "グレートバリア",
+    "specialPoint": 190,
+    "image": "24_replacement_umbrella_kou.png"
+  },
+  {
+    "type": "マニューバー",
+    "name": "ガエンFF",
+    "subName": "トラップ",
+    "specialName": "メガホンレーザー5.1ch",
+    "specialPoint": 190,
+    "image": "gaen_ff.png"
+  },
+  {
+    "type": "スロッシャー",
+    "name": "モップリンD",
+    "subName": "ジャンプビーコン",
+    "specialName": "ホップソナー",
+    "specialPoint": 190,
+    "image": "moplin_d.png"
+  },
+  {
+    "type": "ストリンガー",
+    "name": "フルイドV",
+    "subName": "ロボットボム",
+    "specialName": "ウルトラハンコ",
+    "specialPoint": 200,
+    "image": "fluid_v.png"
+  },
+  {
+    "type": "ストリンガー",
+    "name": "フルイドVカスタム",
+    "subName": "ポイントセンサー",
+    "specialName": "ホップソナー",
+    "specialPoint": 200,
+    "image": "fluid_v_custom.png"
+  },
+  {
+    "type": "ワイパー",
+    "name": "デンタルワイパーミント",
+    "subName": "キューバンボム",
+    "specialName": "グレートバリア",
+    "specialPoint": 210,
+    "image": "dental_wiper_mint.png"
+  },
+  {
+    "type": "ワイパー",
+    "name": "デンタルワイパースミ",
+    "subName": "スプラッシュシールド",
+    "specialName": "ジェットパック",
+    "specialPoint": 200,
+    "image": "dental_wiper_sumi.png"
+  },
+  {
+    "type": "シェルター",
+    "name": "24式張替傘・乙",
+    "subName": "ポイズンミスト",
+    "specialName": "ウルトラチャクチ",
+    "specialPoint": 190,
+    "image": "24_replacement_umbrella_otsu.png"
+  },
+  {
+    "type": "スピナー",
+    "name": "イグザミナー・ヒュー",
+    "subName": "スプラッシュボム",
+    "specialName": "カニタンク",
+    "specialPoint": 210,
+    "image": "examiner_hugh.png"
+  },
+  {
+    "type": "マニューバー",
+    "name": "ガエンFFカスタム",
+    "subName": "クイックボム",
+    "specialName": "トリプルトルネード",
+    "specialPoint": 200,
+    "image": "gaen_ff_custom.png"
+  },
+  {
+    "type": "チャージャー",
+    "name": "スクイックリンβ",
+    "subName": "ロボットボム",
+    "specialName": "ショクワンダー",
+    "specialPoint": 200,
+    "image": "squicklin_beta.png"
+  }
+]
