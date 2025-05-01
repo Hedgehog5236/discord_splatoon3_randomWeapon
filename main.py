@@ -46,7 +46,6 @@ class MainMenu(discord.ui.View):
         super().__init__(timeout=None)
         global all_weapons
         all_weapons = load_weapons()
-        self.add_item(OverwriteToggleButton(user_id))
 
     @discord.ui.button(label="🎲 1つ引く", style=discord.ButtonStyle.primary)
     async def single_weapon(self, interaction: discord.Interaction, button: discord.ui.Button):
@@ -121,13 +120,14 @@ class MultiDrawConfirmButton(discord.ui.Button):
     async def callback(self, interaction: discord.Interaction):
         view: UserSelectMenu = self.view  # type: ignore
         user_ids = [int(uid) for uid in view.select.values]
-        multi_draw_user_ids[interaction.user.id] = user_ids
+        interaction_user_id = interaction.user.id
+        multi_draw_user_ids[interaction_user_id] = user_ids
         user_weapons = {uid: random.choice(all_weapons) for uid in user_ids}
 
-        if overwrite_mode.get(interaction.user.id, True):
-            await interaction.message.edit(content="🎯 **複数人武器抽選結果（全体公開）**", embeds=make_multi_embeds(interaction.guild, user_weapons), files=make_multi_files(user_weapons), view=make_retry_view("multi_retry"))
+        if overwrite_mode.get(interaction_user_id, True):
+            await interaction.message.edit(content="🎯 **複数人武器抽選結果（全体公開）**", embeds=make_multi_embeds(interaction.guild, user_weapons), files=make_multi_files(user_weapons), view=make_retry_view("multi_retry", interaction_user_id))
         else:
-            await interaction.response.send_message(content="🎯 **複数人武器抽選結果（全体公開）**", embeds=make_multi_embeds(interaction.guild, user_weapons), files=make_multi_files(user_weapons), view=make_retry_view("multi_retry"), ephemeral=False)
+            await interaction.response.send_message(content="🎯 **複数人武器抽選結果（全体公開）**", embeds=make_multi_embeds(interaction.guild, user_weapons), files=make_multi_files(user_weapons), view=make_retry_view("multi_retry", interaction_user_id), ephemeral=False)
 
         for uid, weapon in user_weapons.items():
             user_history.setdefault(uid, []).append(weapon['name'])
@@ -155,10 +155,11 @@ def make_multi_files(user_weapons):
             files.append(discord.File(image_path, filename=f"weapon_{uid}.png"))
     return files
 
-def make_retry_view(custom_id):
+def make_retry_view(custom_id, user_id):
     view = discord.ui.View(timeout=None)
     view.add_item(discord.ui.Button(label="もう一度引く", style=discord.ButtonStyle.primary, custom_id=custom_id))
     view.add_item(discord.ui.Button(label="メニューに戻る", style=discord.ButtonStyle.secondary, custom_id="menu"))
+    view.add_item(OverwriteToggleButton(user_id))
     return view
 
 async def send_weapon_embed(interaction: discord.Interaction, weapon, weapons, filter_type=None):
@@ -179,10 +180,7 @@ async def send_weapon_embed(interaction: discord.Interaction, weapon, weapons, f
     user_history.setdefault(interaction.user.id, []).append(weapon['name'])
     view = make_retry_view("weapon_filter_retry" if filter_type else "retry")
 
-    if overwrite_mode.get(interaction.user.id, True) and interaction.message:
-        await interaction.message.edit(embed=embed, view=view, attachments=[file])
-    else:
-        await interaction.response.send_message(file=file, embed=embed, view=view, ephemeral=True)
+    await interaction.response.send_message(file=file, embed=embed, view=view, ephemeral=True)
 
 async def show_random_weapon(interaction: discord.Interaction):
     weapon = random.choice(all_weapons)
@@ -215,11 +213,12 @@ async def on_interaction(interaction: discord.Interaction):
         await interaction.response.send_message("🔰 **スプラトゥーン3 武器抽選メニュー**", view=MainMenu(interaction.user.id), ephemeral=True)
 
     elif interaction.data["custom_id"] == "multi_retry":
-        user_weapons = {uid: random.choice(all_weapons) for uid in multi_draw_user_ids[interaction.user.id]}
-        if overwrite_mode.get(interaction.user.id, True):
-            await interaction.message.edit(content="🎯 **複数人武器抽選結果（全体公開）**", embeds=make_multi_embeds(interaction.guild, user_weapons), files=make_multi_files(user_weapons), view=make_retry_view("multi_retry"))
+        interaction_user_id = interaction.user.id
+        user_weapons = {uid: random.choice(all_weapons) for uid in multi_draw_user_ids[interaction_user_id]}
+        if overwrite_mode.get(interaction_user_id, True):
+            await interaction.message.edit(content="🎯 **複数人武器抽選結果（全体公開）**", embeds=make_multi_embeds(interaction.guild, user_weapons), files=make_multi_files(user_weapons), view=make_retry_view("multi_retry", interaction_user_id))
         else:
-            await interaction.response.send_message(content="🎯 **複数人武器抽選結果（全体公開）**", embeds=make_multi_embeds(interaction.guild, user_weapons), files=make_multi_files(user_weapons), view=make_retry_view("multi_retry"), ephemeral=False)
+            await interaction.response.send_message(content="🎯 **複数人武器抽選結果（全体公開）**", embeds=make_multi_embeds(interaction.guild, user_weapons), files=make_multi_files(user_weapons), view=make_retry_view("multi_retry", interaction_user_id), ephemeral=False)
 
         for uid, weapon in user_weapons.items():
             user_history.setdefault(uid, []).append(weapon['name'])
