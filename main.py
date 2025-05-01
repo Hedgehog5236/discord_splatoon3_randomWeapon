@@ -9,6 +9,10 @@ from flask import Flask  # type: ignore
 
 app = Flask(__name__)
 
+@app.route("/")
+def home():
+    return "Bot is alive!", 200
+
 load_dotenv()
 TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 
